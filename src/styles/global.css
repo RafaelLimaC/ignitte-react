@@ -148,6 +148,10 @@ table {
   --green-500: #00875f;
 }
 
+:focus {
+  outline: 2px solid var(--green-500);
+}
+
 body {
   background-color: var(--gray-900);
   color: var(--gray-300);
